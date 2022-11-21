@@ -1,9 +1,13 @@
 # Api Filmes - Projeto Construído com Spring Boot
 
-## Para iniciar execute o comando abaixo na pasta do projeto 
+### Para iniciar execute o comando abaixo na pasta do projeto 
 > ./mvnw spring-boot:run
-###### ou importar para IDE da sua preferencia, em seguida executar
+###### ou importar o projeto para IDE da sua preferencia e em seguida executar
 
+### Banco de Dados
+##### O Banco de Dados é em memória. Para acessar basta digitar no browser http://localhost:8080/h2-console
+##### User Name: sa / Password: sa
+#
 ### Endpoints
 
 ##### Consultar Filmes
