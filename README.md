@@ -1,16 +1,20 @@
-# api-filmes
+# Api Filmes - Projeto Construído com Spring Boot
 
-### endpoints
+## Para iniciar execute o comando abaixo na pasta do projeto 
+> ./mvnw spring-boot:run
+###### ou importar para IDE da sua preferencia, em seguida executar
 
-##### Consulta Filmes
+### Endpoints
+
+##### Consultar Filmes
 > GET
 /api/filmes/
 #
-##### Filtro - Consulta filmes por title 
+##### Filtro - Consultar filmes por title 
 > GET
 /api/filmes/titulo/{title}
 #
-##### Filtro - Consulta filmes por episodio 
+##### Filtro - Consultar filmes por episodio 
 > GET
 /api/filmes/episodio/{episode_id}
 #
